@@ -1,3 +1,63 @@
+:root {
+    --ff-body: "Kumbh Sans", sans-serif;
+
+    --clr-orange: hsl(26, 100%, 55%);
+    --clr-pale-orange: hsl(25, 100%, 94%);
+    --clr-dark-grayish-blue: hsl(219, 9%, 45%);
+    --clr-grayish-blue: hsl(220, 14%, 75%);
+    --clr-light-grayish-blue: hsl(223, 64%, 98%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-Black-with-opacity: hsl(0, 0%, 0%);
+
+    --fs-paragraph: 1rem;
+
+    --fw-light: 400;
+    --fw-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+p{
+    text-align: left;
+    color: grey;
+}
+
+h1{
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width:700px;
+    margin: 0 auto;
+    padding: 6em 0;
+}
+.sneaker-image {
+    width:45%;
+    
+}
+.sneaker-text{
+   width:45%;    
+}
+.sneaker-image .sneaker-text{
+    margin-left: 10%;
+}
+img{
+    width:100%;
+    border-radius: 10px;
+}
 
 /* navbar styles*/
 header {
@@ -57,18 +117,6 @@ header {
     margin-right: 30px;
 }
 
-body{ 
-    font-family: "Kumbh Sans", sans-serif;
-}
-p{
-    text-align: left;
-    color: grey;
-}
-h1{
-    font-weight: 800;
-    font-size: xx-large;
-}
-
 .price1 {
     font-weight: 700;
     font-size: larger;
@@ -106,28 +154,6 @@ span{
     margin: 10px;
 }
 
-:root {
-    --ff-body: "Kumbh Sans", sans-serif;
-
-    --clr-orange: hsl(26, 100%, 55%);
-    --clr-pale-orange: hsl(25, 100%, 94%);
-    --clr-dark-grayish-blue: hsl(219, 9%, 45%);
-    --clr-grayish-blue: hsl(220, 14%, 75%);
-    --clr-light-grayish-blue: hsl(223, 64%, 98%);
-    --clr-white: hsl(0, 0%, 100%);
-    --clr-Black-with-opacity: hsl(0, 0%, 0%);
-
-    --fs-paragraph: 1rem;
-
-    --fw-light: 400;
-    --fw-bold: 700;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .btn2 {
     margin-top: 1.5em;
