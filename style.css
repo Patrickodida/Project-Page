@@ -1,0 +1,44 @@
+p{
+    text-align: left;
+    color: grey;
+    justify-content: space-around;
+}
+.wrapper{
+    display: flex;
+
+}
+.price1 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 30px;
+    line-height: 1px;
+
+}
+.price2 {
+   margin-bottom: 30px;
+   line-height: 0px;
+}
+span{
+    padding: 3px;
+    background-color: #FEEFE3;
+    color: #FA9240;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: smaller;
+}
+h1{
+    font-family: 'Times New Roman',;
+
+}
+.sneaker{
+    color: #FF7D1B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.sneaker-text{
+    margin: 10px;
+}
