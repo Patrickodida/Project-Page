@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.sneaker-image img {
+    border-radius: 20px;
+    margin-left: 50px;
+    
+}
+.sneaker-text{
+    margin-left:-15cqmax;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
