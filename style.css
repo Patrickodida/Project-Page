@@ -1,20 +1,25 @@
 .wrapper{
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    
-
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width:700px;
+    margin: 0 auto;
+    padding: 6em 0;
 }
-.sneaker-image img {
+.sneaker-image {
     border-radius: 20px;
     margin-left: 50px;
+    width:45%;
     
 }
 .sneaker-text{
-    margin-left:-15cqmax;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    
+   width:45%;    
+}
+.sneaker-image .sneaker-text{
+    margin-left: 10%;
+}
+img{
+    width:100%;
+    border-radius: 10px;
 }
